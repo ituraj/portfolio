@@ -3,8 +3,8 @@ import React from 'react';
 function Skills() {
     return (
         <React.Fragment>
-            <section className="Skills">
-                <article>
+            <section className="Skills section">
+                <article className="section__article">
                     <h2>Skills</h2>
                     <p>HTML5</p>
                     <p>JavaScript</p>

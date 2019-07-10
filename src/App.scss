@@ -7,6 +7,13 @@ $color-quaternary: #73c3d3;
 $color-white: #fff;
 $color-black: #111;
 
+@mixin flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 *,
 *::after,
 *::before {
@@ -45,17 +52,27 @@ nav {
   background-color: $color-quaternary;
 }
 
-section {
+.section {
   width: 100vw;
   height: 92vh;
   display: grid;
   grid-template-columns: repeat(2, 4fr);
+  margin-top: 8vh;
+  &__article {
+    @include flex-col;
+    background-color: $color-primary;
+    padding: 8rem;
+  }
+
+  &__image {
+    @include flex-col;
+    background-color: $color-secondary;
+    padding: 8rem;
+  }
 }
 
-article {
-  background-color: $color-primary;
-}
-
-figure {
-  background-color: $color-secondary;
+.Skills .section {
+  &__article {
+    width: 100vw;
+  }
 }
