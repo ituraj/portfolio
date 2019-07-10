@@ -1,78 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import './sass/abstracts.scss';
+@import './sass/base.scss';
 
-$color-primary: #99cfb2;
-$color-secondary: #fabec0;
-$color-tertiary: #fbe4a7;
-$color-quaternary: #73c3d3;
-$color-white: #fff;
-$color-black: #111;
-
-@mixin flex-col {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  outline: none;
-  list-style: none;
-  border: none;
-  background-color: transparent;
-}
-
-html {
-  font-size: 62.5%;
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  width: 100%;
-  background-color: $color-white;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma;
-  font-size: 1.6rem;
-}
-
-nav {
-  width: 100vw;
-  height: 8vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: $color-quaternary;
-}
-
-.section {
-  width: 100vw;
-  height: 92vh;
-  display: grid;
-  grid-template-columns: repeat(2, 4fr);
-  margin-top: 8vh;
-  &__article {
-    @include flex-col;
-    background-color: $color-primary;
-    padding: 8rem;
-  }
-
-  &__image {
-    @include flex-col;
-    background-color: $color-secondary;
-    padding: 8rem;
-  }
-}
-
-.Skills .section {
-  &__article {
-    width: 100vw;
-  }
-}
+@import './components/About/About.scss';
+@import './components/Contact/Contact.scss';
+@import './components/Home/Home.scss';
+@import './components/Nav/Nav.scss';
+@import './components/Projects/Projects.scss';
+@import './components/Skills/Skills.scss';
