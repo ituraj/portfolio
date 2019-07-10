@@ -6,3 +6,10 @@ nav {
   left: 0;
   background-color: $color-quaternary;
 }
+
+.btn {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border: 1px solid #c55;
+  cursor: pointer;
+}

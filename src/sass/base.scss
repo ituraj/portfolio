@@ -38,12 +38,13 @@ p {
   font-weight: $font-weight-light;
 }
 
-.section {
+.header,
+.section .footer {
   width: 100vw;
   height: 92vh;
-  display: grid;
-  grid-template-columns: repeat(2, 4fr);
   margin-top: 8vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
   &__article {
     @include flex-col;
     background-color: $color-primary;
@@ -55,4 +56,7 @@ p {
     background-color: $color-secondary;
     padding: 8rem;
   }
+}
+
+@media (min-width: 768px) {
 }
