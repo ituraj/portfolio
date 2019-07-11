@@ -23,8 +23,8 @@ body {
   height: 100%;
   width: 100%;
   background-color: $color-white;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma;
-  font-size: 1.8rem;
+  font-family: 'Montserrat', Helvetica, Arial, Verdana, Tahoma;
+  font-size: $font-size-small;
 }
 
 h1,
@@ -91,4 +91,30 @@ img {
   .figure {
     padding: 8rem;
   }
+}
+
+// Bars
+
+.primary {
+  fill: $color-primary;
+}
+
+.secondary {
+  fill: $color-secondary;
+}
+
+.tertiary {
+  fill: $color-tertiary;
+}
+
+.quaternary {
+  fill: $color-quaternary;
+}
+
+.bar-lg {
+  max-width: 15rem;
+}
+
+.bar-sm {
+  max-width: 6rem;
 }

@@ -3,6 +3,7 @@
   height: $nav-height;
   background-color: $color-white;
   box-shadow: 0px 1px 5px $color-light;
+
   padding: 0 8rem;
   position: fixed;
   top: 0;
@@ -11,7 +12,7 @@
   justify-content: space-between;
   align-items: center;
 
-  &__items {
+  .nav-items {
     list-style: none;
     display: flex;
 
@@ -20,7 +21,7 @@
     }
   }
 
-  &__languages {
+  .nav-languages {
     list-style: none;
     display: flex;
 
@@ -29,6 +30,9 @@
     }
 
     .btn {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: $font-weight-regular;
+      font-size: 1.2rem;
       border-right: 1px solid $color-black;
       padding: 0 1rem;
     }

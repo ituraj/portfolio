@@ -1,6 +1,16 @@
 .skills .article {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-auto-flow: column;
+}
+
+.skills .article span {
+  display: flex;
+  align-items: flex-end;
+}
+
+.skills .article p {
+  padding: 6rem 0 0 1rem;
 }
 
 .skills .heading {
