@@ -10,14 +10,10 @@ class About extends Component {
                 <section id="about" className="about">
                     <figure className="figure"><img src={testImage} alt="test" /></figure>
                     <article className="article">
-                        <h2> {this.props.t('about.h2')}</h2>
+                        <h2> {this.props.t('about.heading')}</h2>
                         <BarIcon className="secondary bar-lg" />
-                        <p>My name is Izabela Turaj and I would like to become front end developer in the future.
-                        <br/>
-                        <br/>
-                        Currently looking for an opportunity to join a team of developers and gain more practical skills.
-
-                            </p>
+                        <p>{this.props.t('about.article-one')}</p>
+                        <p>{this.props.t('about.article-two')}</p>
                     </article>
                 </section>
             </>

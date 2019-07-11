@@ -1,5 +1,33 @@
 {
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "heading": "Izabela Turaj",
+    "article": "Aspiring front end developer, minimalistic design enthusiast and hopeless wanderer."
+  },
   "about": {
-    "h2": "About DK"
+    "heading": "About",
+    "article-one": "My name is Izabela Turaj and I would like to become front end developer in the future.",
+    "article-two": "Currently looking for an opportunity to join a team of developers and gain more practical skills."
+  },
+  "skills": {
+    "heading": "Skills"
+  },
+  "projects": {
+    "heading-one": "Angular Project",
+    "article-one": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
+    "heading-two": "Angular Project",
+    "article-two": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
+    "heading-three": "Angular Project",
+    "article-three": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4."
+  },
+  "contact": {
+    "heading": "Contact",
+    "article": "Looking for an opportunity to join a team of happy developers and gain more practical skills."
   }
 }

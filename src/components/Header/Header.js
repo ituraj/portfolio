@@ -1,21 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { ReactComponent as BarIcon } from '../../assets/icons/bar.svg';
+import { withTranslation } from 'react-i18next';
 import testImage from '../../assets/images/test.png';
 
 
-function Header() {
-    return (
-        <>
-            <header id="home" className="header">
-                <article className="article">
-                    <h1>Izabela Turaj</h1>
-                    <BarIcon className="secondary bar-lg" />
-                    <p>Aspiring front end developer, minimalistic design enthusiast and hopeless wanderer.</p>
-                </article>
-                <figure className="figure"><img src={testImage} alt="test" /></figure>
-            </header>
-        </>
-    );
+class Header extends Component {
+    render() {
+        return (
+            <>
+                <header id="home" className="header">
+                    <article className="article">
+                        <h1>{this.props.t('home.heading')}</h1>
+                        <BarIcon className="secondary bar-lg" />
+                        <p>{this.props.t('home.article')}</p>
+                    </article>
+                    <figure className="figure"><img src={testImage} alt="test" /></figure>
+                </header>
+            </>
+        );
+    }
 }
 
-export default Header;
+export default withTranslation('common')(Header);

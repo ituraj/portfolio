@@ -1,5 +1,33 @@
 {
+  "nav": {
+    "home": "Start",
+    "about": "O mnie",
+    "skills": "Technologie",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "heading": "Izabela Turaj",
+    "article": "Aspirujący front end developer, entuzjastka minimalistycznego designu i niepoprawny włóczykij."
+  },
   "about": {
-    "h2": "About PL"
+    "heading": "O mnie",
+    "article-one": "Nazywam się Izabela Turaj i w przyszłości chciałabym zostać front end developerem.",
+    "article-two": "Currently looking for an opportunity to join a team of developers and gain more practical skills."
+  },
+  "skills": {
+    "heading": "Technologie"
+  },
+  "projects": {
+    "heading-one": "Angular Project",
+    "article-one": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
+    "heading-two": "Angular Project",
+    "article-two": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
+    "heading-three": "Angular Project",
+    "article-three": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4."
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "article": "Looking for an opportunity to join a team of happy developers and gain more practical skills."
   }
 }

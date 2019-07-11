@@ -37,7 +37,7 @@ h2 {
 p {
   font-size: $font-size-regular;
   font-weight: $font-weight-light;
-  padding: 3rem 0;
+  padding: 3rem 0 0 0;
 }
 
 img {
@@ -78,7 +78,7 @@ img {
   max-height: calc(100vh - #{$nav-height});
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header,
   .about,
   .project,
