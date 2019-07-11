@@ -4,7 +4,7 @@ function Skills() {
     return (
         <>
             <section className="skills">
-                <article>
+                <article className="article">
                     <h2>Skills</h2>
                     <p>HTML5</p>
                     <p>JavaScript</p>

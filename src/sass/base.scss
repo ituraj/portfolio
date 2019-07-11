@@ -38,25 +38,63 @@ p {
   font-weight: $font-weight-light;
 }
 
-.header,
-.section .footer {
+img {
+  width: 100%;
+  max-width: 45rem;
+  height: auto;
+}
+// Grid
+
+.nav {
   width: 100vw;
-  height: 92vh;
-  margin-top: 8vh;
+  height: $nav-height;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $color-quaternary;
+}
+
+.header,
+.about,
+.skills,
+.project,
+.footer {
+  height: calc(100vh - #{$nav-height});
+  margin-top: $nav-height;
+}
+
+.header,
+.about,
+.project,
+.footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  &__article {
-    @include flex-col;
-    background-color: $color-primary;
-    padding: 8rem;
-  }
+  align-items: center;
+}
 
-  &__image {
-    @include flex-col;
-    background-color: $color-secondary;
-    padding: 8rem;
-  }
+.skills {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.article,
+.figure {
+  padding: 4rem;
+  max-height: calc(100vh - #{$nav-height});
 }
 
 @media (min-width: 768px) {
+  .header,
+  .about,
+  .project,
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .article,
+  .figure {
+    padding: 8rem;
+  }
 }
