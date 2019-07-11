@@ -3,9 +3,12 @@ import React from 'react';
 function Skills() {
     return (
         <>
-            <section className="skills">
-                <article className="article">
+            <section id="skills-page" className="skills">
+                <article className="heading">
                     <h2>Skills</h2>
+                </article>
+                <article className="article">
+
                     <p>HTML5</p>
                     <p>JavaScript</p>
                     <p>React.js</p>

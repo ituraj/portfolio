@@ -1,6 +1,54 @@
-.btn {
-  padding: 1rem 2rem;
-  margin: 1rem;
-  border: 1px solid #c55;
-  cursor: pointer;
+.nav {
+  width: 100vw;
+  height: $nav-height;
+  background-color: $color-white;
+  box-shadow: 0px 1px 5px $color-light;
+  padding: 0 8rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__items {
+    list-style: none;
+    display: flex;
+
+    li {
+      margin: 1rem 2rem 1rem 0;
+    }
+  }
+
+  &__languages {
+    list-style: none;
+    display: flex;
+
+    li {
+      padding: 1rem 0;
+    }
+
+    .btn {
+      border-right: 1px solid $color-black;
+      padding: 0 1rem;
+    }
+
+    :nth-child(3) .btn {
+      border: none;
+      padding: 0 0 0 1rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a,
+  a:visited {
+    color: $color-black;
+  }
+
+  a:hover {
+    color: $color-quaternary;
+  }
 }

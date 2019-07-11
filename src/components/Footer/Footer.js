@@ -4,7 +4,7 @@ import testImage from '../../assets/images/test.png';
 function Footer() {
     return (
         <>
-            <footer className="footer">
+            <footer id="contact-page" className="footer">
                 <figure className="figure"><img src={testImage} alt="test" /></figure>
                 <article className="article">
                     <h2>Contact</h2>

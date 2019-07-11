@@ -31,11 +31,13 @@ h1,
 h2 {
   font-size: $font-size-large;
   font-weight: $font-weight-regular;
+  padding: 3rem 0;
 }
 
 p {
   font-size: $font-size-regular;
   font-weight: $font-weight-light;
+  padding: 3rem 0;
 }
 
 img {
@@ -43,16 +45,8 @@ img {
   max-width: 45rem;
   height: auto;
 }
-// Grid
 
-.nav {
-  width: 100vw;
-  height: $nav-height;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: $color-quaternary;
-}
+// Grid
 
 .header,
 .about,

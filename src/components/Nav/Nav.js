@@ -6,14 +6,18 @@ class Nav extends Component {
         const { i18n } = this.props;
         return (
             <nav className="nav">
-
-                <button className="btn" onClick={() => i18n.changeLanguage('en')}>en</button>
-
-                <button className="btn" onClick={() => i18n.changeLanguage('dk')}>dk</button>
-
-                <button className="btn" onClick={() => i18n.changeLanguage('pl')}>pl</button>
-
-
+                <ul className="nav__items">
+                    <li><a href="#home-page">Izabela Turaj</a></li>
+                    <li><a href="#about-page">About</a></li>
+                    <li><a href="#skills-page">Skills</a></li>
+                    <li><a href="#projects-page">Projects</a></li>
+                    <li><a href="#contact-page">Contact</a></li>
+                </ul>
+                <ul className="nav__languages">
+                    <li><button className="btn" onClick={() => i18n.changeLanguage('en')}>EN</button></li>
+                    <li><button className="btn" onClick={() => i18n.changeLanguage('dk')}>DK</button></li>
+                    <li><button className="btn" onClick={() => i18n.changeLanguage('pl')}>PL</button></li>
+                </ul>
             </nav>
         );
     }

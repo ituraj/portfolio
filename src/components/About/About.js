@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return (
             <>
-                <section className="about">
+                <section id="about-page" className="about">
                     <figure className="figure"><img src={testImage} alt="test" /></figure>
                     <article className="article">
                         <h2> {this.props.t('about.h2')}</h2>

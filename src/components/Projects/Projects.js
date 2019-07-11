@@ -4,7 +4,7 @@ import projectImage from '../../assets/images/project.png';
 function Projects() {
     return (
         <>
-            <section className="projects">
+            <section id="projects-page" className="projects">
                 <section className="project">
                     <article className="article">
                         <h2>React Project</h2>

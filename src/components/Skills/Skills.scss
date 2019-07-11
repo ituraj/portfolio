@@ -1,5 +1,8 @@
-.Skills .section {
-  &__article {
-    width: 100vw;
-  }
+.skills .article {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skills .heading {
+  padding: 8rem 8rem 0 8rem;
 }
