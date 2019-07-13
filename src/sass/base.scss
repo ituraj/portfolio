@@ -72,12 +72,8 @@ img {
   fill: $color-quaternary;
 }
 
-.bar-lg {
-  max-width: 15rem;
-}
-
-.bar-sm {
-  max-width: 6rem;
+.underscore {
+  max-width: 80%;
 }
 
 @media screen and (min-width: 768px) {
@@ -91,7 +87,7 @@ img {
   p {
     font-size: $font-size-regular;
     font-weight: $font-weight-light;
-    padding: 3rem 0 0 0;
+    padding: 3rem 0;
   }
 
   img {
@@ -101,5 +97,13 @@ img {
   .article,
   .figure {
     margin: 8rem;
+  }
+
+  .bar-lg {
+    max-width: 15rem;
+  }
+
+  .bar-sm {
+    max-width: 6rem;
   }
 }

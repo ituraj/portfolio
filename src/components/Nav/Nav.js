@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ReactComponent as BarIcon } from '../../assets/icons/bar.svg';
+import { ReactComponent as MinIcon } from '../../assets/icons/min.svg';
 import { withTranslation } from 'react-i18next';
 
 class Nav extends Component {
@@ -25,14 +25,14 @@ class Nav extends Component {
                     <span>Izabela Turaj</span>
                     {this.state.overlay === true ?
                         <button className="close-menu" onClick={this.handleOverlay}>
-                            <BarIcon className="nav-bar bar-sm" />
-                            <BarIcon className="nav-bar bar-sm" />
+                            <MinIcon className="nav-bar underscore" />
+                            <MinIcon className="nav-bar underscore" />
                         </button>
                         :
                         <button className="burger-menu" onClick={this.handleOverlay}>
-                            <BarIcon className="nav-bar bar-sm" />
-                            <BarIcon className="nav-bar bar-sm" />
-                            <BarIcon className="nav-bar bar-sm" />
+                            <MinIcon className="nav-bar underscore" />
+                            <MinIcon className="nav-bar underscore" />
+                            <MinIcon className="nav-bar underscore" />
                         </button>
                     }
                     <div

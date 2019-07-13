@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ReactComponent as BarIcon } from '../../assets/icons/bar.svg';
+import { ReactComponent as MaxIcon } from '../../assets/icons/max.svg';
 import { withTranslation } from 'react-i18next';
 import testImage from '../../assets/images/test.png';
 
@@ -11,7 +11,7 @@ class About extends Component {
                     <figure className="figure"><img src={testImage} alt="test" /></figure>
                     <article className="article">
                         <h2> {this.props.t('about.heading')}</h2>
-                        <BarIcon className="secondary bar-lg" />
+                        <MaxIcon className="secondary bar-lg" />
                         <p>{this.props.t('about.article')}</p>
                     </article>
                 </section>
