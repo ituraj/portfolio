@@ -12,8 +12,7 @@ class About extends Component {
                     <article className="article">
                         <h2> {this.props.t('about.heading')}</h2>
                         <BarIcon className="secondary bar-lg" />
-                        <p>{this.props.t('about.article-one')}</p>
-                        <p>{this.props.t('about.article-two')}</p>
+                        <p>{this.props.t('about.article')}</p>
                     </article>
                 </section>
             </>

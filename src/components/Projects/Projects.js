@@ -9,6 +9,7 @@ class Projects extends Component {
             <>
                 <section id="projects" className="projects">
                     <section className="project">
+                        <figure className="figure"><img src={projectImage} alt="test" /></figure>
                         <article className="article">
                             <h2>{this.props.t('projects.heading-one')}</h2>
                             <BarIcon className="tertiary bar-lg" />
@@ -16,7 +17,7 @@ class Projects extends Component {
                             <span>  <BarIcon className="primary bar-sm" /><p className="bar-text">React.js</p></span>
                             <span>  <BarIcon className="primary bar-sm" /><p className="bar-text">Bootstrap 4</p></span>
                         </article>
-                        <figure className="figure"><img src={projectImage} alt="test" /></figure>
+
                     </section>
                     <section className="project">
                         <figure className="figure"><img src={projectImage} alt="test" /></figure>
@@ -27,8 +28,10 @@ class Projects extends Component {
                             <span>  <BarIcon className="primary bar-sm" /><p className="bar-text">React.js</p></span>
                             <span>  <BarIcon className="primary bar-sm" /><p className="bar-text">Bootstrap 4</p></span>
                         </article>
+
                     </section>
                     <section className="project">
+                        <figure className="figure"><img src={projectImage} alt="test" /></figure>
                         <article className="article">
                             <h2>{this.props.t('projects.heading-three')}</h2>
                             <BarIcon className="primary bar-lg" />
@@ -36,7 +39,7 @@ class Projects extends Component {
                             <span>  <BarIcon className="primary bar-sm" /><p className="bar-text">React.js</p></span>
                             <span>  <BarIcon className="primary bar-sm" /><p className="bar-text">Bootstrap 4</p></span>
                         </article>
-                        <figure className="figure"><img src={projectImage} alt="test" /></figure>
+
                     </section>
                 </section>
             </>

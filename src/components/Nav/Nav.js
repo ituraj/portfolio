@@ -23,11 +23,18 @@ class Nav extends Component {
             <>
                 <nav className="nav-small">
                     <span>Izabela Turaj</span>
-                    <button className="burger-menu" onClick={this.handleOverlay}>
-                        <BarIcon className="nav-bar bar-sm" />
-                        <BarIcon className="nav-bar bar-sm" />
-                        <BarIcon className="nav-bar bar-sm" />
-                    </button>
+                    {this.state.overlay === true ?
+                        <button className="close-menu" onClick={this.handleOverlay}>
+                            <BarIcon className="nav-bar bar-sm" />
+                            <BarIcon className="nav-bar bar-sm" />
+                        </button>
+                        :
+                        <button className="burger-menu" onClick={this.handleOverlay}>
+                            <BarIcon className="nav-bar bar-sm" />
+                            <BarIcon className="nav-bar bar-sm" />
+                            <BarIcon className="nav-bar bar-sm" />
+                        </button>
+                    }
                     <div
                         id="overlay"
                         className={this.state.overlay === false ? "hidden" : "visible"}>

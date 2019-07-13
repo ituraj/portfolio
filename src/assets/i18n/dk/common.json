@@ -12,18 +12,17 @@
   },
   "about": {
     "heading": "About",
-    "article-one": "My name is Izabela Turaj and I would like to become front end developer in the future.",
-    "article-two": "Currently looking for an opportunity to join a team of developers and gain more practical skills."
+    "article": "My name is Izabela Turaj and I would like to become front end developer in the future. Currently looking for an opportunity to join a team of developers and gain more practical skills."
   },
   "skills": {
     "heading": "Skills"
   },
   "projects": {
-    "heading-one": "Angular Project",
+    "heading-one": "React Project",
     "article-one": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
     "heading-two": "Angular Project",
-    "article-two": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
-    "heading-three": "Angular Project",
+    "article-two": "Collaborative project of multi-language communication platform for transportation using Angular 2+ and Firebase.",
+    "heading-three": "React Project",
     "article-three": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4."
   },
   "contact": {
