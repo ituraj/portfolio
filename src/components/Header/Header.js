@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { ReactComponent as MaxIcon } from '../../assets/icons/max.svg';
 import { withTranslation } from 'react-i18next';
-import testImage from '../../assets/images/test.png';
+import portfolioImageOne from '../../assets/images/image1.png';
+
 
 
 class Header extends Component {
@@ -14,7 +15,7 @@ class Header extends Component {
                         <MaxIcon className="secondary underscore" />
                         <p>{this.props.t('home.article')}</p>
                     </article>
-                    <figure className="figure"><img src={testImage} alt="test" /></figure>
+                    <figure className="figure"><img src={portfolioImageOne} alt="test" /></figure>
                 </header>
             </>
         );

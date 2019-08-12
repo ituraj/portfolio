@@ -6,14 +6,9 @@
   flex-direction: column;
 }
 
-.project .article span {
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 2rem;
-}
-
-.project .bar-text {
-  padding: 2rem 0 0 1rem;
+.project:nth-child(1),
+.project:nth-child(3) {
+  flex-direction: column-reverse;
 }
 
 @media screen and (min-width: 768px) {
@@ -21,9 +16,5 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-
-  .project .bar-text {
-    padding: 2rem 0 0 1rem;
   }
 }

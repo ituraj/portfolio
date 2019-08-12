@@ -11,8 +11,9 @@
     "article": "Aspirujący front end developer, entuzjastka minimalistycznego designu i niepoprawny włóczykij."
   },
   "about": {
-    "heading": "O mnie",
-    "article": "My name is Izabela Turaj and I would like to become front end developer in the future. Currently looking for an opportunity to join a team of developers and gain more practical skills."
+    "heading": "About",
+    "article-one": "My name is Izabela Turaj and I would like to become front end developer in the future. Currently looking for an opportunity to join a team of developers and gain more practical skills.",
+    "article-two": "I have graduated Academy Profession degree in Multimedia Design and Communication and I am currently on my last year of Bachelor degree in Web Development."
   },
   "skills": {
     "heading": "Technologie"

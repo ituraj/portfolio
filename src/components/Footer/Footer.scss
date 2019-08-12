@@ -7,24 +7,10 @@
   justify-content: space-around;
 }
 
-.footer .article span {
-  display: flex;
-  align-items: flex-end;
-  padding-bottom: 2rem;
-}
-
-.footer .bar-text {
-  padding: 2rem 0 0 1rem;
-}
-
 @media screen and (min-width: 768px) {
   .footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-  }
-
-  .footer .bar-text {
-    padding: 2rem 0 0 1rem;
   }
 }

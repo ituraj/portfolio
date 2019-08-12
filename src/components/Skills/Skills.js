@@ -11,20 +11,21 @@ class Skills extends Component {
                 <section id="skills" className="skills">
                     <article className="heading">
                         <h2>{this.props.t('skills.heading')}</h2>
-                        <MaxIcon className="quaternary bar-lg" />
+                        <MaxIcon className="secondary tag-lg" />
                     </article>
                     <article className="article">
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">HTML5</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">JavaScript</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">React.js</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">Angular 2</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">CSS3</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">SCSS</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">Bootstrap 4</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">Foundation 6</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">UX/UI</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">RWD</p></span>
-                        <span>  <MinIcon className="primary bar-sm" /><p className="bar-text">Agile</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">HTML5</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">JavaScript</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">React.js</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Angular 2</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">CSS3</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">SCSS</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Bootstrap 4</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Foundation 6</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Firebase</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">UX/UI</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">RWD</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Agile</p></span>
                     </article>
                 </section>
             </>
