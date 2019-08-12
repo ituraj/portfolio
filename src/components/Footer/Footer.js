@@ -14,6 +14,7 @@ class Footer extends Component {
                         <h2>{this.props.t('contact.heading')}</h2>
                         <MaxIcon className="secondary underscore" />
                         <p>{this.props.t('contact.article')}</p>
+
                         <span>  <MinIcon className="primary underscore" /><p className="bar-text">i.turaj@gmail.com</p></span>
                         <span>  <MinIcon className="primary underscore" /><p className="bar-text">+45 527 64 927</p></span>
                     </article>
