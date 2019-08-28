@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e97a3f89.chunk.css",
-    "main.js": "/portfolio/static/js/main.2e30b09c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2e30b09c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.97f3295e.chunk.css",
+    "main.js": "/portfolio/static/js/main.0de2787f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0de2787f.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/js/2.9f271594.chunk.js": "/portfolio/static/js/2.9f271594.chunk.js",
     "static/js/2.9f271594.chunk.js.map": "/portfolio/static/js/2.9f271594.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c2c22ea2a2ca06aa0aafa8c5cdf7af41.js": "/portfolio/precache-manifest.c2c22ea2a2ca06aa0aafa8c5cdf7af41.js",
+    "precache-manifest.28b0d0b337aaa9bb52ffa1eafc7d6158.js": "/portfolio/precache-manifest.28b0d0b337aaa9bb52ffa1eafc7d6158.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.e97a3f89.chunk.css.map": "/portfolio/static/css/main.e97a3f89.chunk.css.map",
+    "static/css/main.97f3295e.chunk.css.map": "/portfolio/static/css/main.97f3295e.chunk.css.map",
     "static/media/image1.png": "/portfolio/static/media/image1.a44490d1.png",
     "static/media/image2.png": "/portfolio/static/media/image2.fb1df665.png",
     "static/media/image3.png": "/portfolio/static/media/image3.b64041c9.png",
     "static/media/max.58bbf8c2.svg": "/portfolio/static/media/max.58bbf8c2.svg",
     "static/media/min.efb1c993.svg": "/portfolio/static/media/min.efb1c993.svg",
-    "static/media/project1.png": "/portfolio/static/media/project1.ab0ff531.png",
-    "static/media/project2.png": "/portfolio/static/media/project2.1fea4e22.png",
-    "static/media/project3.png": "/portfolio/static/media/project3.28c17674.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.112ddf79.pdf"
+    "static/media/project1.jpg": "/portfolio/static/media/project1.bef6e7e2.jpg",
+    "static/media/project2.jpg": "/portfolio/static/media/project2.7359b971.jpg",
+    "static/media/project3.jpg": "/portfolio/static/media/project3.7bddd0cb.jpg",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.af01a98e.pdf"
   }
 }
