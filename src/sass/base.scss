@@ -45,13 +45,6 @@ img {
   height: auto;
 }
 
-.figure {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 40rem;
-}
-
 .article,
 .figure {
   margin: 1rem 4rem;
@@ -87,6 +80,8 @@ img {
 
 .tags .tag-text {
   padding: 2rem 0 0 1rem;
+  text-decoration: none;
+  color: $color-black;
 }
 
 // Button
@@ -95,7 +90,7 @@ img {
   color: $color-primary;
   font-size: $font-size-small;
   margin-right: 1rem;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border: solid $color-primary 1px;
   text-decoration: none;
 }
@@ -106,7 +101,7 @@ img {
   text-decoration: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   h1,
   h2 {
     font-size: $font-size-extra-large;
@@ -125,6 +120,10 @@ img {
     margin: 10rem;
   }
 
+  .figure {
+    max-width: 30vw;
+  }
+
   .tag-lg {
     max-width: 15rem;
   }
@@ -135,5 +134,26 @@ img {
 
   .tags .tag-text {
     padding: 2rem 0 0 1rem;
+  }
+
+  .btn-social {
+    margin-right: 1rem;
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  p {
+    font-size: $font-size-large;
+    font-weight: $font-weight-light;
+    padding: 3rem 0;
+  }
+
+  .tag-lg {
+    max-width: 30rem;
+  }
+
+  .tag-sm {
+    max-width: 12rem;
   }
 }

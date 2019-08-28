@@ -20,6 +20,13 @@
       border-right: 1px solid $color-black;
       padding: 0 1rem;
       cursor: pointer;
+      &__active {
+        color: $color-tertiary;
+      }
+    }
+
+    .btn:hover {
+      color: $color-tertiary;
     }
 
     :nth-child(3) .btn {

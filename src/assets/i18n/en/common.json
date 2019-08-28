@@ -20,11 +20,11 @@
   },
   "projects": {
     "heading-one": "React Project",
-    "article-one": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
+    "article-one": "Travel and leisure theme for ecommerce business created with React and Bootstrap 4.",
     "heading-two": "Angular Project",
-    "article-two": "Collaborative project of multi-language communication platform for transportation using Angular 2+ and Firebase.",
+    "article-two": "Collaborative project of multi-language communication platform for transportation using Angular 2 and Firebase.",
     "heading-three": "Angular Project",
-    "article-three": "Simple Angular app displaying the list of the bars and rating component."
+    "article-three": "Simple Angular 2 and Bootstrap 4 app displaying the list of the bars and rating component."
   },
   "contact": {
     "heading": "Contact",

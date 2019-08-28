@@ -48,9 +48,15 @@ class Nav extends Component {
 
                         <ul className="nav-languages">
 
-                            <li><button className="btn" onClick={() => i18n.changeLanguage('en')}>EN</button></li>
-                            <li><button className="btn" onClick={() => i18n.changeLanguage('dk')}>DK</button></li>
-                            <li><button className="btn" onClick={() => i18n.changeLanguage('pl')}>PL</button></li>
+                            <li><button className={`btn ${
+                                i18n.language === "en" ? "btn__active" : ""
+                                }`} onClick={() => i18n.changeLanguage('en')}>EN</button></li>
+                            <li><button className={`btn ${
+                                i18n.language === "dk" ? "btn__active" : ""
+                                }`} onClick={() => i18n.changeLanguage('dk')}>DK</button></li>
+                            <li><button className={`btn ${
+                                i18n.language === "pl" ? "btn__active" : ""
+                                }`} onClick={() => i18n.changeLanguage('pl')}>PL</button></li>
                         </ul>
                     </div>
                 </nav>
@@ -66,9 +72,15 @@ class Nav extends Component {
 
                     <ul className="nav-languages">
 
-                        <li><button className="btn" onClick={() => i18n.changeLanguage('en')}>EN</button></li>
-                        <li><button className="btn" onClick={() => i18n.changeLanguage('dk')}>DK</button></li>
-                        <li><button className="btn" onClick={() => i18n.changeLanguage('pl')}>PL</button></li>
+                        <li><button className={`btn ${
+                            i18n.language === "en" ? "btn__active" : ""
+                            }`} onClick={() => i18n.changeLanguage('en')}>EN</button></li>
+                        <li><button className={`btn ${
+                            i18n.language === "dk" ? "btn__active" : ""
+                            }`} onClick={() => i18n.changeLanguage('dk')}>DK</button></li>
+                        <li><button className={`btn ${
+                            i18n.language === "pl" ? "btn__active" : ""
+                            }`} onClick={() => i18n.changeLanguage('pl')}>PL</button></li>
                     </ul>
                 </nav>
             </>

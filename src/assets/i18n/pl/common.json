@@ -8,26 +8,26 @@
   },
   "home": {
     "heading": "Izabela Turaj",
-    "article": "Aspirujący front end developer, entuzjastka minimalistycznego designu i niepoprawny włóczykij."
+    "article": "Aspirujący frontend deweloper, entuzjastka minimalistycznego designu i niepoprawny włóczykij."
   },
   "about": {
-    "heading": "About",
-    "article-one": "My name is Izabela Turaj and I would like to become front end developer in the future. Currently looking for an opportunity to join a team of developers and gain more practical skills.",
+    "heading": "O mnie",
+    "article-one": "Nazywam się Izabela Turaj i moim celem jest zostanie frontend deweloperem. Szukam możliwości, aby dołączyć do zespołu programistów i zdobyć więcej praktycznych umiejętności.",
     "article-two": "I have graduated Academy Profession degree in Multimedia Design and Communication and I am currently on my last year of Bachelor degree in Web Development."
   },
   "skills": {
     "heading": "Technologie"
   },
   "projects": {
-    "heading-one": "React Project",
-    "article-one": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4.",
-    "heading-two": "Angular Project",
-    "article-two": "Collaborative project of multi-language communication platform for transportation using Angular 2+ and Firebase.",
-    "heading-three": "React Project",
-    "article-three": "Travel and leisure theme for ecommerce business created with React.js and Bootstrap 4."
+    "heading-one": "Projekt React",
+    "article-one": "Szablon dla sklepu internetowego o tematyce podróżniczej lub wypoczynkowej stworzony z użyciem technologii React oraz Bootstrap 4.",
+    "heading-two": "Projekt Angular",
+    "article-two": "Kolaboracja przy projekcie wielojęzykowej platformy komunikacji w przemyśle transportowym z użyciem technologii Angular 2 oraz Firebase.",
+    "heading-three": "Projekt Angular",
+    "article-three": "Prosty projekt aplikacji umożliwiającej wyświetlanie oraz ocenianie barów oraz restauracji z użyciem technologii Angular 2 oraz Bootstrap 4."
   },
   "contact": {
     "heading": "Kontakt",
-    "article": "Looking for an opportunity to join a team of happy developers and gain more practical skills."
+    "article": "Chętnie dołączę do zespołu szczęśliwych deweloperów."
   }
 }

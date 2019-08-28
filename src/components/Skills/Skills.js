@@ -16,12 +16,12 @@ class Skills extends Component {
                     <article className="article">
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">HTML5</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">JavaScript</p></span>
-                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">React.js</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">React</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Angular 2</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">CSS3</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">SCSS</p></span>
-                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Bootstrap 4</p></span>
-                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Foundation 6</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Bootstrap</p></span>
+                        <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Foundation</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">Firebase</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">UX/UI</p></span>
                         <span>  <MinIcon className="primary tag-sm" /><p className="tag-text">RWD</p></span>
