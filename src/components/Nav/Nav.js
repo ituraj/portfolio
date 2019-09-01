@@ -16,6 +16,7 @@ class Nav extends Component {
         this.setState({
             overlay: !this.state.overlay
         });
+        document.body.classList.add('overflow-hidden');
     }
     render() {
         const { i18n } = this.props;
