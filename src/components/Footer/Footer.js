@@ -26,14 +26,6 @@ class Footer extends Component {
 								Github
 							</a>
 							<a
-								href='https://www.linkedin.com/in/izabela-turaj/'
-								target='_blank'
-								rel='noopener noreferrer'
-								className='btn-social'
-							>
-								LinkedIn
-							</a>
-							<a
 								href={resume}
 								target='_blank'
 								rel='noopener noreferrer'
